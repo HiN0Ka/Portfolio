@@ -366,3 +366,33 @@ d
 .contact-item a:hover {
     color: #00bcd4;
 }
+
+.skills-button {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 188, 212, 0.1);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #00bcd4;
+    box-shadow: 0 2px 10px rgba(0, 188, 212, 0.3);
+}
+
+.btn-skills {
+    background: linear-gradient(135deg, #00bcd4, #008ba3);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-skills:hover {
+    background: linear-gradient(135deg, #008ba3, #005f6b);
+    transform: scale(1.05);
+}
